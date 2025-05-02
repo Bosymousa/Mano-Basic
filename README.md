@@ -46,8 +46,3 @@ The Mano Basic Computer is a theoretical computer architecture described by M. M
 | HLT               | 71                | stop execution                                    |
 | INP               | F8                | Input operation from external source              |
 
-# basic computer
-![img](https://github.com/codsalah/Mano-Basic-Computer-Using-Verilog/blob/main/images/img%20(6).png)
-
-# Output signal
-![img](https://raw.githubusercontent.com/codsalah/Mano-Basic-Computer-Using-Verilog/main/images/img%20(1).png)
