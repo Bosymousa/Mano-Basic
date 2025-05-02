@@ -18,7 +18,6 @@ The Mano Basic Computer is a theoretical computer architecture described by M. M
 - **BUS_Control**: Module for controlling the system bus.
 - **BUS_Selection**: Module for selecting signals on the bus.
 - **Control_Unit**: Module for the main control unit.
-- **D_ff_reset**: Module for a D flip-flop with reset functionality.
 - **D_flipflop**: Module for a D flip-flop.
 - **decoder**: Module for a binary decoder.
 - **Decoder3x8**: Module for a 3x8 binary decoder.
@@ -28,12 +27,10 @@ The Mano Basic Computer is a theoretical computer architecture described by M. M
 - **MUX8x3**: Module for an 8x3 multiplexer.
 - **PC_Control**: Module for controlling the Program Counter (PC).
 - **PC_REG**: Module for the Program Counter (PC) register.
-- **seq_counter**: Module for a sequential counter.
 - **Sequence_counter**: Module for a sequence counter.
 - **timing_signals**: Module for timing signals.
 
 # Instruction Set
-![img](https://github.com/codsalah/Mano-Basic-Computer-Using-Verilog/blob/main/images/img%20(2).png)
 
 | Instruction      | Hexadecimal Code | Description                                       |
 |-------------------|-------------------|---------------------------------------------------|
