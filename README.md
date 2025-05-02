@@ -1,5 +1,7 @@
 # Mano Basic Computer
-
+# My Avideo  Project
+   [My Avideo  Project](https://www.dropbox.com/scl/fi/p423p3dd1cda5ir523plo/LOWKEY.mp4?rlkey=swv044ds3slprajdlbmgn8dcj&st=jq14a4p7&dl=0)
+   
 
 ## Overview
 
@@ -35,23 +37,14 @@ The Mano Basic Computer is a theoretical computer architecture described by M. M
 
 | Instruction      | Hexadecimal Code | Description                                       |
 |-------------------|-------------------|---------------------------------------------------|
-| AND               | 0XXX 8XXX         | And memory word to AC                             |
-| ADD               | 1XXX 9XXX         | Add memory word to AC                             |
-| LDA               | 2XXX AXXX         | Load AC from memory                               |
-| STA               | 3XXX BXXX         | Store content of AC into memory                   |
-| BUN               | 3XXX CXXX         | Branch unconditionally                            |
-| ISZ               | 7XXX EXXX         | Increment and skip if zero                        |
-| CLA               | 7800              | Clear AC                                          |
-| CLE               | 7400              | Clear E                                           |
-| CMA               | 7200              | Complement AC                                     |
-| CME               | 7100              | Complement E                                      |
-| INC               | 7020              | Increment AC                                      |
-| SPA               | 7010              | Skip next instruction if AC is positive           |
-| SNA               | 7008              | Skip next instruction if AC is negative           |
-| SZA               | 7004              | Skip next instruction if AC is zero               |
-| SZE               | 7002              | Skip next instruction if E is zero                |
-
-
+| AND               | 0X / 8X           | And memory word to AC                             |
+| ADD               | 1X / 9X           | Add memory word to AC                             |
+| LDA               | 2X / AX           | Load AC from memory                               |
+| STA               | 3X /BX            | Store content of AC into memory                   |
+| CLA               | 78                | Clear AC                                          |
+| CMA               | 74                | Complement AC                                     |
+| HLT               | 71                | stop execution                                    |
+| INP               | F8                | Input operation from external source              |
 
 # basic computer
 ![img](https://github.com/codsalah/Mano-Basic-Computer-Using-Verilog/blob/main/images/img%20(6).png)
